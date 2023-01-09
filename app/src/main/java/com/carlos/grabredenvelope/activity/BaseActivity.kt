@@ -4,11 +4,9 @@ import android.app.AlertDialog
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
-import cn.jpush.android.api.JPushInterface
 import com.carlos.cutils.base.activity.CBaseAccessibilityActivity
 import com.carlos.grabredenvelope.R
 import com.carlos.grabredenvelope.util.ControlUse
-import com.umeng.analytics.MobclickAgent
 
 /**
  *                             _ooOoo_
@@ -58,14 +56,10 @@ open class BaseActivity : CBaseAccessibilityActivity() {
 
     override fun onResume() {
         super.onResume()
-        JPushInterface.onResume(this)
-        MobclickAgent.onResume(this)
     }
 
     override fun onPause() {
         super.onPause()
-        JPushInterface.onPause(this)
-        MobclickAgent.onPause(this)
     }
 
     fun back() {
@@ -82,7 +76,7 @@ open class BaseActivity : CBaseAccessibilityActivity() {
         val controlUse = ControlUse(this)
         if (controlUse.stopUse()) {
             val dialog = AlertDialog.Builder(this).setTitle("提示")
-                .setMessage("本软件设定使用时限已到时间，谢谢使用，请点击确定退出。如想继续用可联系小不点，谢谢！").setCancelable(false)
+                .setMessage("本软件设定使用时限已到时间，谢谢使用，请点击确定退出。").setCancelable(false)
                 .setPositiveButton("确定") { dialog, which ->
                     dialog.dismiss()
                 }

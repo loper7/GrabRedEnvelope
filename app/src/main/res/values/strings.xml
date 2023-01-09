@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">抢红包</string>
-    <string name="app_name_dev">抢红包DEV</string>
-    <string name="app_content">小不点</string>
+    <string name="app_name">RedEnvelope Helper</string>
+    <string name="app_name_dev">RedEnvelope Helper</string>
+    <string name="app_content">RedEnvelope Helper</string>
 
     <string name="grab_wechat_envelope">抢微信红包</string>
     <string name="grab_dingding_envelope">抢钉钉红包</string>
     <string name="auto_send_emoji">自动发送表情</string>
 
     <string name="how_to_use">
-        该版本适配微信7.0.3,7.0.4,7.0.5,7.0.8,7.0.9,7.0.10,7.0.11,7.0.12,7.0.16,8.0.0,8.0.1,8.0.18,8.0.19，其他版本未适配可能无效。长时间服务后台可能被杀，如果服务被杀需要关闭重新开启无障碍服务。
+        该版本适配微信7.0.3,7.0.4,7.0.5,7.0.8,7.0.9,7.0.10,7.0.11,7.0.12,7.0.16,8.0.0,8.0.1,8.0.18,8.0.19,8.0.31，其他版本未适配可能无效。<font color='#FF764E'>长时间服务后台可能被杀，如果服务被杀需要关闭重新开启无障碍服务，如需保证程序稳定运行，最好在电源管理里面将程序设为白名单并且开启后台常驻</font>。
         \n\n控制说明：
         \n1.微信红包监控开关：点击进入设置找到无障碍服务辅助功能开启【抢微信红包】，开启后下面操作才有效；
         \n2.通知监控开关：开启后通知收到微信红包则会自动点击该通知，若开启后无效请确认通知权限是否开启；
@@ -20,7 +20,7 @@
         \n8.自动发表情：开启后聊天页面可按次数和间隔自动发送表情，实现快速放烟花的效果等；
         \n9.不抢的群或人：设置后当前页面有设置的关键字则不会点击。
         \n\n
-        \n代码开源仅供学习使用，请勿用作商业用途
+        \n代码开源仅供学习使用，请勿用作商业用途。
 <!--        \nAPP说明：http://xbdcc.cn/GrabRedEnvelope/index.html-->
 <!--        \n代码地址：https://github.com/xbdcc/GrabRedEnvelope-->
 <!--        \n\简单教程：https://github.com/xbdcc/GrabRedEnvelope/blob/master/demo/README.md-->
@@ -30,18 +30,10 @@
 
     <string name="wechat_description">
         使用指南：使用前仔细看APP使用说明。辅助功能开启【抢微信红包】，APP 抢微信红包设置是否监控通知和聊天列表页面，同时可设置延迟时间。代码开源仅供学习使用，请勿用作商业用途。
-        \n\n如果有遇到说明里除已知bug外的问题, 欢迎通过 GitHub Issue 反馈:https://github.com/xbdcc/GrabRedEnvelope。
-        \n\n有问题也可联系偶尔会使用的微信：xbdcc1。
-        \n\n ——made by 小不点</string>
+        \n\n如果有遇到说明里除已知bug外的问题, 欢迎通过 GitHub Issue 反馈:https://github.com/xbdcc/GrabRedEnvelope。</string>
     <string name="emoji_description">
         使用指南：使用前仔细看APP使用说明。辅助功能开启【自动发送表情】，支持设置自动输入文本、发送次数、发送间隔时间。代码开源仅供学习使用，请勿用作商业用途。
-        \n\n如果有遇到说明里除已知bug外的问题, 欢迎通过 GitHub Issue 反馈:https://github.com/xbdcc/GrabRedEnvelope。
-        \n\n有问题也可联系偶尔会使用的微信：xbdcc1。
-        \n\n ——made by 小不点</string>
-
-    <string name="dingding_description">基于钉钉5.0.5版本开发，不做版本适配，只监听当前对话页面红包</string>
-
-
+        \n\n如果有遇到说明里除已知bug外的问题, 欢迎通过 GitHub Issue 反馈:https://github.com/xbdcc/GrabRedEnvelope。</string>
     <string name="sure">确定</string>
     <string name="cancel">取消</string>
     <string name="unkonown_error">服务端异常或网络超时，请稍后再试！</string>
